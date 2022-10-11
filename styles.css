@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.topImg,
+.bottomImg {
+  width: 100%;
+}
+
+.content {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.contentText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contentText h1 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #6c63ff;
+  letter-spacing: 0.105em;
+  line-height: 54px;
+
+  margin-bottom: 19px;
+}
+
+.countdown {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.countdownInfos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 100%;
+  padding-inline: 29px 11px;
+}
+
+.countdownInfos p {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 21px;
+  color: #c8c8c8;
+}
+
+.countdownTime {
+  width: 494px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.countdownTime p{
+  font-size: 72px;
+  font-weight: 400;
+  line-gap-override: 108px;
+  color: #4D4C59;
+}
+
+.content h3 {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #9C9AB6;
+
+  margin-top: 46px;
+}
+
+.subscribe {
+  margin-top: 31px;
+  width: 150px;
+  height: 46px;
+
+  background-color: #6C63FF;
+  cursor: pointer;
+
+  border: none;
+  border-radius: 10px;
+
+  color: #FFFFFF;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.subscribe:hover {
+  filter: brightness(1.1);
+}
+
